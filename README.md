@@ -5,7 +5,7 @@ Prefixer for Myanmar National Registration Card's Format
 
 ## Match Formats
 
-`[State Number]\[District]([NAING/N])[Register No]`
+`[State Number]/[Township]([NAING/N])[Register No]`
 
 - `12/OKM(N)123456`
 - `12/OUKAMA(N)123456`
@@ -18,8 +18,8 @@ Prefer formats
 
 *NOTE*
 
-Three english characters in district are not complete format and will not support some function.
-So you should be use six english characters for district.
+Three english characters in townships are not complete format and will not support some function.
+So you should be use six english characters for township.
 
 ## Usage
 ### Get format
